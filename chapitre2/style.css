@@ -1,0 +1,70 @@
+body {
+    background-image: url("mur.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: top right;
+}
+.introduction {
+    color: blue;
+    font-size: 40px;
+    font-style: oblique;
+    text-decoration: line-through;
+    text-align: center;
+    border: 3px black  dashed;
+
+}
+#mon_paragraphe {
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    text-decoration: underline;
+    text-align: left;
+    color: green;
+    clear: both;
+}
+
+em {
+    color: red;
+    font-size: large;
+    text-decoration: blink;
+}
+.hello {
+    color: blueviolet;
+}
+
+.site {
+    text-align: justify;
+}
+
+.image_flottante {
+    float: left;
+}
+mark {
+    background-color: red;
+    color: white;
+    opacity: 0.3;
+}
+
+#hi {
+    border-radius:20px / 10px;
+    color: red;
+}
+.site {
+    border: 3px red solid;
+    box-shadow: 6px 6px 6px rgb(218, 160, 160) inset;
+    text-shadow: 2px 2px 4px  black;
+}
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+em:hover {
+    text-decoration: overline;
+    color: blue;
+}
+a:focus {
+    background-color: #FFCC66;
+}
+a:visited {
+    color: #AAA;
+}

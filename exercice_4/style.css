@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+body {
+    background-image: url("fond.jpg");
+}
+
+header#presentation {
+    position: relative;
+    left: 50%;  
+}
+
+
+
+header#presentation p, h1, h4 {
+    margin: 0;
+    color:#2f3530;    
+    font-family: 'cac_champagneregular', Arial, serif;
+    width: 50%;
+}
+
+@media all and (max-width: 1024px) {
+    header#presentation h1, h4 {
+        margin-left: -10% ;
+    }
+}
+.image {
+    float:  right;
+}
+
+div#contenue {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: top;
+    margin-left:110px;
+    margin-top: 75px;
+}
+
+@media all and (max-width: 1024px) {
+    div#contenue{
+        display:block; 
+        margin: 0;
+    }
+}
+
+section#contenue div.bloc h2{
+    color:#2f3530;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #706b60;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;
+    position: absolute;
+    height: 70%;
+    width: 100px;
+}
+
+@media all and (max-width: 1024px) {
+    aside {
+        display: none;
+    }
+}
+
+aside h1 {
+    color: black;
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+
+
+
+

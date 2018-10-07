@@ -1,0 +1,97 @@
+header {
+    background-color: #7fffd4;
+    color: black;
+    width: 250px;
+    height: 110px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 15px;
+    overflow: auto;
+}
+nav {
+    background-color: #7fffd4;
+    color: black;
+    width: 50%;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 15px;
+}
+section {
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.long{
+    border: 2px solid black;
+    width: 20%;
+    word-wrap: break-word;
+}
+.element1 {
+    border: 1px solid; 
+    background-color: orange;
+    width:20%;
+    height: 50%;
+    padding: 2%;
+    flex: 1;
+}
+.element2 {
+    border: 1px solid; 
+    background-color: blue;
+    width:20%;
+    height: 50%; 
+    padding: 2%;
+
+}
+.element3 {
+    border: 1px solid; 
+    background-color: greenyellow;
+    width:20%;
+    height: 50%; 
+    padding: 2%;
+}
+.element4 {
+    border: 1px solid; 
+    background-color: greenyellow;
+    width:20%;
+    height: 50%; 
+    padding: 2%;
+}.element5 {
+    border: 1px solid; 
+    background-color: greenyellow;
+    width:20%;
+    height: 50%; 
+    padding: 2%;
+}.element6 {
+    border: 1px solid; 
+    background-color: greenyellow;
+    width:20%;
+    height: 50%; 
+    padding: 2%;
+}.element7 {
+    border: 1px solid; 
+    background-color: greenyellow;
+    width:20%;
+    height: 50%; 
+    padding: 2%;
+}.element8 {
+    border: 1px solid; 
+    background-color: greenyellow;
+    width:20%;
+    height: 50%; 
+    padding: 2%;
+}
+#conteneur {
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
